@@ -2,6 +2,8 @@ package cn.nwm.common.enums;
 
 import lombok.Getter;
 
+
+
 public enum BizCodeEnum {
     /**
      * 通⽤操作码
