@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xdclass-order-service" />
+        <module name="xdclass-user-service" />
+        <module name="xdclass-common" />
+        <module name="xdclass-coupon-service" />
+        <module name="xdclass-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xdclass-product-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xdclass-common" options="" />
+      <module name="xdclass-coupon-service" options="" />
+      <module name="xdclass-gateway" options="" />
+      <module name="xdclass-order-service" options="" />
+      <module name="xdclass-product-service" options="" />
+      <module name="xdclass-user-service" options="" />
+    </option>
+  </component>
+</project>
